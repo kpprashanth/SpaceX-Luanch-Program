@@ -15,14 +15,15 @@ const CustomCard = (props) => {
   const getMissionIds = () => {
     if (missionId.length) {
       var result = missionId.map((mission_id) => {
-        return <li style={{ color: '#a7adc9' }}>{mission_id}</li>;
+        return <li className="grey-text">{mission_id}</li>;
       });
 
       return result;
     } else {
-      return <li>empty</li>;
+      return <li className="grey-text">empty</li>;
     }
   };
+
   return (
     <div className="card" role={missionName}>
       <div className="image-container">
@@ -36,7 +37,7 @@ const CustomCard = (props) => {
       </div>
 
       <p>
-        <strong style={{ color: '#5d67a2' }}>{`${missionName} : #${flightNumber}`} </strong>
+        <strong className="blue-text">{`${missionName} : #${flightNumber}`} </strong>
       </p>
 
       <table>
@@ -59,19 +60,19 @@ const CustomCard = (props) => {
             <td>
               <strong>Launch Year:</strong>
             </td>
-            <td style={{ color: '#5d67a2' }}>{`${launchYear}`}</td>
+            <td className="blue-text">{`${launchYear}`}</td>
           </tr>
           <tr>
             <td>
               <strong>Successful Launch</strong>
             </td>
-            <td style={{ color: '#5d67a2' }}>{launch}</td>
+            <td className="blue-text">{launch}</td>
           </tr>
           <tr>
             <td>
               <strong>Successful Landing:</strong>
             </td>
-            <td style={{ color: '#5d67a2' }}>{land}</td>
+            <td className="blue-text">{land}</td>
           </tr>
         </tbody>
       </table>

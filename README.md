@@ -29,7 +29,9 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 $ cd SpaceX-Luanch-Program
 $ yarn install
-$ yarn run dev
+$ yarn build #build project
+$ yarn run dev #start the server
+$ Access the application by launching the URL http://localhost:3006/
 ```
 
 ### Responsive Design

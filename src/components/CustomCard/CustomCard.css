@@ -16,6 +16,14 @@
   margin-top: 0.5em;
 }
 
+.blue-text {
+  color: #5d67a2;
+}
+
+.grey-text {
+  color: #a7adc9;
+}
+
 table,
 th,
 td {
