@@ -27,7 +27,7 @@ React application which help users list and browse all launches by SpaceX progra
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-$ cd dillinger
+$ cd SpaceX-Luanch-Program
 $ yarn install
 $ yarn run dev
 ```
@@ -36,10 +36,7 @@ $ yarn run dev
 
 Application supports devices with different scree sizes, Implemented using media queries.
 
-```sh
-$ yarn install --production
-$ NODE_ENV=production node app
-```
+![screenshots](https://target100.s3.ap-south-1.amazonaws.com/spaceX.gif)
 
 ## Developed By
 
