@@ -171,6 +171,13 @@
   }
 }
 
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
   .main-content {
     flex-direction: column;
@@ -200,12 +207,6 @@ footer {
   justify-content: center;
 }
 
-.main-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
 .card-section-container {
   align-self: flex-start;
   margin: 0.5em;
@@ -223,7 +224,6 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: 1em;
 }
@@ -257,7 +257,7 @@ footer {
 .filter-section {
   align-self: flex-start;
   margin: 0.5em;
-  min-width: 200px;
+  min-width: 150px;
   background-color: #fff;
   border-radius: 5px;
   padding: 1em;
