@@ -1,0 +1,9 @@
+.selectable-button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.75em 1.25em;
+  margin: 0.5em;
+  background-color: #eee;
+  box-shadow: 0 0.1em 0.3em #9bacba;
+}

@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* For mobile phones: */
+[class*='col-'] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 700px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  .card-section {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /* For desktop: */
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+  .card-section {
+    max-width: 900px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  /* For Large Devices: */
+  .col-l-1 {
+    width: 8.33%;
+  }
+  .col-l-2 {
+    width: 16.66%;
+  }
+  .col-l-3 {
+    width: 25%;
+  }
+  .col-l-4 {
+    width: 33.33%;
+  }
+  .col-l-5 {
+    width: 41.66%;
+  }
+  .col-l-6 {
+    width: 50%;
+  }
+  .col-l-7 {
+    width: 58.33%;
+  }
+  .col-l-8 {
+    width: 66.66%;
+  }
+  .col-l-9 {
+    width: 75%;
+  }
+  .col-l-10 {
+    width: 83.33%;
+  }
+  .col-l-11 {
+    width: 91.66%;
+  }
+  .col-l-12 {
+    width: 100%;
+  }
+  .card-section {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+.H3-header {
+  margin: 1px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .card-section {
+    align-self: center;
+    justify-content: center;
+  }
+  .filter-section {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .filter {
+    max-width: 300px;
+  }
+  .card-section {
+    max-width: 300px;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card-section-container {
+  align-self: flex-start;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.loadedContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 1em;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  border-bottom: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  width: 100%;
+}
+
+.selectable-button {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.75em 1.25em;
+  margin: 0.5em;
+  background-color: #eee;
+  box-shadow: 0 0.1em 0.3em #9bacba;
+}
+
+.filter-section {
+  align-self: flex-start;
+  margin: 0.5em;
+  min-width: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+}
+.link-button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card {
+  margin: 0.5em;
+  box-shadow: 0 0.1em 0.3em #9bacba;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 5px;
+  align-self: flex-start;
+  padding: 5px;
+}
+.image-container {
+  background-color: #f1f2f3;
+  margin-top: 0.5em;
+}
+
+table,
+th,
+td {
+  padding: 1px;
+}
+td {
+  font-size: small;
+  float: left;
+}
+li {
+  padding: 1px;
+}
+

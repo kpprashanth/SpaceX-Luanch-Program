@@ -1,0 +1,27 @@
+.filter-section {
+  align-self: flex-start;
+  margin: 0.5em;
+  min-width: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1em;
+}
+.link-button {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
