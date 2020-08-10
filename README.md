@@ -20,7 +20,7 @@ React application which help users list and browse all launches by SpaceX progra
 
 ### Application URL
 
-- [SpaceX Launch Program](https://reactjs.org/) - Click on this to access the application
+- [SpaceX Launch Program](http://ec2-13-127-64-23.ap-south-1.compute.amazonaws.com:3006/) - Click on this to access the application
 
 ### Installation
 
